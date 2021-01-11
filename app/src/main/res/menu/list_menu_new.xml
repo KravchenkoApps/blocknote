@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favourites_list"
+        android:icon="@drawable/baseline_star_border_white_48"
+        android:title="favourites"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/save_list"
+        android:icon="@drawable/baseline_done_24"
+        android:orderInCategory="100"
+        android:title="@string/save_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/send_list"
+        android:orderInCategory="100"
+        android:title="@string/send_button"
+        app:showAsAction="never" />
+
+</menu>
+

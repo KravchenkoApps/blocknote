@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/allerta</item>
+        <item>@font/archivo_black</item>
+        <item>@font/arizonia</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/paprika</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/yesteryear</item>
+    </array>
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--ENGLISH//
+
+    КНОПКИ, ПОДСКАЗКИ-->
+    <string name="name_note">Input title</string>
+    <string name="user_text">Input text</string>
+    <string name="new_folder_hint">Folder name</string>
+    <string name="new_note">New note</string>
+    <string name="new_list">List</string>
+    <string name="new_list1">New list</string>
+    <string name="text_add_button">+</string>
+    <string name="save_button">Save</string>
+    <string name="save_file">Save to the file</string>
+    <string name="list_button">LIST OF NOTES</string>
+    <string name="delete_button">Delete</string>
+    <string name="delete_button2">Delete from the Trash</string>
+    <string name="delete_button3"> </string>
+    <string name="send_button">Send</string>
+    <string name="recover_button">Recover</string>
+    <string name="search_hint">Search by name</string>
+    <string name="super_folder">My notes</string>
+    <string name="main_folder">Common folder</string>
+    <string name="favourites_folder">Favourites</string>
+    <string name="all_notes">ALL NOTES</string>
+    <string name="new_folder">New folder</string>
+    <string name="basket">Trash</string>
+    <string name="settings">Settings</string>
+    <string name="edit_folder">Edit the folder:</string>
+    <string name="sort_a_ya">Alphabetically (A-Z)</string>
+    <string name="sort_ya_a">Alphabetically (Z-A)</string>
+    <string name="sort_new_old">New ones first</string>
+    <string name="sort_old_new">First old ones</string>
+    <string name="note1">Note</string>
+    <string name="list1">List</string>
+    <string name="create">Create</string>
+    <string name="alert_delete_1">Do you want to delete this note</string>
+    <string name="alert_delete_2"> into the Trash?</string>
+    <string name="alert_delete_3"> once and for all?\n\nATTENTION! The action cannot be cancelled!</string>
+    <string name="alert_delete_4">ATTENTION! The action cannot be cancelled!</string>
+    <string name="alert_delete_5_1">"Do you want to clean the folder "</string>
+    <string name="alert_delete_5_2">?</string>
+    <string name="alert_delete_5_3">\n\nNotes from this folder will be removed to the Trash</string>
+    <string name="alert_delete_6_1">"Do you want to delete folder "</string>
+    <string name="alert_delete_6_2">" with all your notes once and for all?\n\nATTENTION! The action cannot be cancelled!"</string>
+    <string name="alert_del_name">Deleting the note\n</string>
+    <string name="alert_del_name2">Clean the Trash\n</string>
+    <string name="alert_del_name3">Delete to the Trash\n</string>
+    <string name="alert_del_basket1">"Are you sure about cleaning the Trash?\n\nItems to be removed: "</string>
+    <string name="alert_del_basket2">ATTENTION! The Trash is empty!</string>
+    <string name="alert_del_all_n1">Do you want to delete all the notes into the Trash?\n\nItems to be removed: </string>
+    <string name="alert_del_all_n2">ATTENTION! There are no notes to delete!</string>
+    <string name="alert_del_all_n3">Do you want to delete all notes of Common folder into the Trash?\n\nItems to be removed: </string>
+    <string name="add_line">Add a line</string>
+    <string name="create_folder">Create folder</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="about">About App</string>
+    <string name="buy_full_version">Buy full version</string>
+
+    <string name="hint_name_list">Enter a name of the list</string>
+    <string name="points" tools:ignore="TypographyEllipsis">...</string>
+
+
+    <!--Всплывающее окно-->
+    <string name="pop_delete">Do you want to delete the note?</string>
+    <string name="pop_exit_main">Do you want to close application?</string>
+    <string name="pop_exit_note">Do you want to exit without saving?</string>
+    <string name="button_positive">YES</string>
+    <string name="button_negative" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="button_ok">OK</string>
+    <string name="edit_user_folder1">Change the folder name</string>
+    <string name="edit_user_folder2">Clean the folder</string>
+    <string name="edit_user_folder3">Delete the folder</string>
+    <string name="edit_user_folder4">Cleaning the folder</string>
+    <string name="edit_user_folder5">Deleting the folder</string>
+    <string name="edit_user_folder6">Edit the folder</string>
+    <string name="edit_user_folder7">Edit the folder</string>
+
+    <!--Настройки-->
+    <string name="settings_note">"Settings of the note's text"</string>
+    <string name="settings_note_size">"The size of the note's text"</string>
+    <string name="settings_links">Active links in the note</string>
+    <string name="settings_links_on">Active links are ON</string>
+    <string name="settings_links_off">Links in the text are OFF</string>
+    <string name="settings_themes">Setting up a theme</string>
+    <string name="settings_themes_color">Color scheme</string>
+    <string name="settings_dark">Dark theme at night</string>
+    <string name="settings_dark_on">Always dark theme at night</string>
+    <string name="settings_language">Language settings</string>
+    <string name="settings_about">About App</string>
+    <string name="settings_developer">bout the developer</string>
+
+    <string name="LangTitle">Language</string>
+    <string name="LangDialogTitle">Select a language:</string>
+    <string name="LangSummary">The language of the application.\nYou must restart the app to accept the changes.</string>
+
+    <!--Цвета (для классов)-->
+    <string name="c_blue">Blue</string>
+    <string name="c_purple">Purple</string>
+    <string name="c_red">Red</string>
+    <string name="c_orange">Orange</string>
+    <string name="c_green">Green</string>
+    <string name="c_grey">Gray</string>
+    <string name="c_dark">Dark</string>
+
+    <!--Цвета2 (значения preference screen)-->
+    <string name="c2_blue">Синяя</string>
+    <string name="c2_purple">Фиолетовая</string>
+    <string name="c2_red">Красная</string>
+    <string name="c2_orange">Оранжевая</string>
+    <string name="c2_green">Зеленая</string>
+    <string name="c2_grey">Серая</string>
+    <string name="c2_dark">Темная</string>
+
+       <!--1 лист в Drawer Layout-->
+    <string-array name="folders">
+        <item>@string/all_notes</item>
+        <item>@string/favourites_folder</item>
+        <item>@string/main_folder</item>
+
+    </string-array>
+
+    <!--3 лист в Drawer Layout-->
+    <string-array name="folders3">
+        <item>@string/basket</item>
+        <item>@string/new_folder</item>
+        <item>@string/settings</item>
+        <item>@string/about</item>
+    </string-array>
+
+
+    <!-- Array для настроек -->
+    <!-- Размер текста -->
+    <string-array name="s_text_size_array">
+        <item>Large</item>
+        <item>Middle</item>
+        <item>Small</item>
+    </string-array>
+
+    <string-array name="values_text_size_array">
+        <item>Big</item>
+        <item>Middle</item>
+        <item>Small</item>
+    </string-array>
+
+    <string name="size_t_big">Large</string>
+    <string name="size_t_medium">Middle</string>
+    <string name="size_t_small">Small</string>
+
+    <!-- Array для экрана О приложении' -->
+    <string-array name="array_about">
+        <item>@string/privacy_policy</item>
+        <item>@string/buy_full_version</item>
+    </string-array>
+
+    <!-- Темы -->
+    <string-array name="s_themes_array">
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Gray</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="test_themes_array">
+        <item name="1">Blue</item>
+        <item name="2">Purple</item>
+        <item name="3">Red</item>
+        <item name="4">Orange</item>
+        <item name="5">Green</item>
+        <item name="6">Gray</item>
+        <item name="7">Dark</item>
+    </string-array>
+
+    <string-array name="values_themes_array">
+        <item>Синяя</item>
+        <item>Фиолетовая</item>
+        <item>Красная</item>
+        <item>Оранжевая</item>
+        <item>Зеленая</item>
+        <item>Серая</item>
+        <item>Темная</item>
+    </string-array>
+
+
+    <string-array name="fab_array">
+        <item>Note</item>
+        <item>List</item>
+    </string-array>
+
+    <!--Toast's - всплывающие уведомления-->
+    <string name="t_save_note_1">Please, write the note</string>
+    <string name="t_save_note_2">Your list is not saved!</string>
+    <string name="t_save_note_3">The list is empty!</string>
+    <string name="t_save_note_4">Saved</string>
+    <string name="t_save_note_5">Saved to a TXT file</string>
+    <string name="t_save_folder">The folder is saved</string>
+    <string name="t_save_folder2">This folder already exists</string>
+    <string name="t_save_folder3">Fill in the folder name</string>
+    <string name="t_save_folder4">"You can only create 4 user's folders"</string>
+    <string name="t_basket1">All notes were moved to the Trash</string>
+    <string name="t_basket2">All notes were deleted from the Trash</string>
+    <string name="t_basket3">The note is now in the Trash</string>
+    <string name="t_basket4">Delete</string>
+    <string name="t_basket5">The list is now in the Trash</string>
+    <string name="t_basket6">Notes in the Trash can not be edited!</string>
+    <string name="t_basket7">Note is reactivated</string>
+
+    <string-array name="double_folders_protection">
+        <item>All notes</item>
+        <item>all notes</item>
+        <item>ALL NOTES</item>
+        <item>All Notes</item>
+        <item>all Notes</item>
+        <item>Favourites</item>
+        <item>favourites</item>
+        <item>FAVOURITES</item>
+        <item>Common folder</item>
+        <item>common folder</item>
+        <item>common Folder</item>
+        <item>COMMON FOLDER</item>
+        <item>Trash</item>
+        <item>trash</item>
+        <item>TRASH</item>
+        <item>New folder</item>
+        <item>new folder</item>
+        <item>new Folder</item>
+        <item>New Folder</item>
+        <item>NEW FOLDER</item>
+        <item>Settings</item>
+        <item>settings</item>
+        <item>SETTINGS</item>
+        <item>About App</item>
+        <item>About app</item>
+        <item>about App</item>
+        <item>about app</item>
+        <item>ABOUT APP</item>
+
+    </string-array>
+
+</resources>

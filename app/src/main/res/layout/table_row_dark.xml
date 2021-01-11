@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableRowDark"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppThemeDark_checkbox"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tvText"
+        android:layout_width="0px"
+        android:layout_weight="78"
+        android:background="@drawable/edit_text_style"
+        android:inputType="textMultiLine"
+        android:paddingRight="3dip" />
+
+    <ImageButton
+        android:id="@+id/button_del_row"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="0px"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_weight="12"
+        android:background="#00000000"
+        android:src="@drawable/outline_clear_black_48"
+        android:tint="@color/red_delete" />
+
+
+</TableRow>

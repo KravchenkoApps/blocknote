@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--РАЗМЕР, ШРИФТ и т.д.-->
+    <PreferenceCategory android:title="@string/settings_note">
+        <!--с помощью ключа(key) в ListPreference можно вытащить данные, которые выбрал пользователь-->
+        <!--размер-->
+        <ListPreference
+            android:defaultValue="Middle"
+            android:entries="@array/s_text_size_array"
+            android:entryValues="@array/values_text_size_array"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:key="text_size_note"
+            android:title="@string/settings_note_size" />
+        <!--активные ссылки-->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_share"
+            android:key="switch_preference_links"
+            android:pointerIcon="context_menu"
+            android:summaryOff="@string/settings_links_off"
+            android:summaryOn="@string/settings_links_on"
+            android:title="@string/settings_links" />
+    </PreferenceCategory>
+
+        <!--ВИЗУАЛИЗАЦИЯ-->
+    <PreferenceCategory android:title="@string/settings_themes">
+        <ListPreference
+            android:defaultValue="Синяя"
+            android:entries="@array/s_themes_array"
+            android:entryValues="@array/values_themes_array"
+            android:icon="@android:drawable/ic_menu_view"
+            android:key="key_theme_color"
+            android:title="@string/settings_themes_color" />
+        <!--темная тема ночью-->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:key="switch_preference_dark"
+            android:pointerIcon="context_menu"
+            android:summaryOn="@string/settings_dark_on"
+            android:title="@string/settings_dark" />
+    </PreferenceCategory>
+
+    <!--ЯЗЫК-->
+    <!--<PreferenceCategory android:title="@string/settings_language">
+        <ListPreference
+            android:summary="@string/LangSummary"
+            android:defaultValue="default"
+            android:entries="@array/entries_lang"
+            android:entryValues="@array/entryvalues_lang"
+            android:key="lang"
+            android:title="@string/LangTitle" />
+
+    </PreferenceCategory>-->
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favourites_click_basket"
+        android:icon="@drawable/baseline_star_border_white_48"
+        android:title="favourites"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/recover_basket"
+        android:orderInCategory="100"
+        android:title="@string/recover_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delet_basket"
+        android:orderInCategory="100"
+        android:title="@string/delete_button2"
+        app:showAsAction="never" />
+
+</menu>

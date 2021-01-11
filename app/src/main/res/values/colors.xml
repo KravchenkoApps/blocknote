@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2D3985</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Green">#4CAF50</color>
+    <color name="StatusBar_Green">#006400</color>
+    <color name="StatusBar_Blue">#00008B</color>
+    <color name="StatusBar_Purple">#584BA8</color>
+    <color name="StatusBar_Red">#8B0000</color>
+    <color name="StatusBar_Orange">#CC6600</color>
+    <color name="StatusBar_Grey">#696969</color>
+    <color name="StatusBar_Dark">#000000</color>
+    <color name="ThemeDark_fon">#3E3E3E</color>
+    <color name="ThemeDark_text_color">@color/browser_actions_bg_grey</color>
+    <color name="ThemeDark_hint_color">#37AEAEAE</color>
+    <color name="ThemeDark_spinner_color">#303030</color>
+
+    <color name="StatusBar_Green2">#427E00</color>
+    <color name="StatusBar_Blue2">#2D3C8E</color>
+    <color name="StatusBar_Purple2">#5E35B1</color>
+    <color name="test_color">#3C4CB3</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="red_delete">#BD0000</color>
+</resources>

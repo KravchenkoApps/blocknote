@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--РУССКИЙ//
+
+    КНОПКИ, ПОДСКАЗКИ-->
+    <string name="name_note">Введите заголовок</string>
+    <string name="user_text">Введите текст</string>
+    <string name="new_folder_hint">Название папки</string>
+    <string name="new_note">Новая заметка</string>
+    <string name="new_list">Список</string>
+    <string name="new_list1">Новый список</string>
+    <string name="text_add_button">+</string>
+    <string name="save_button">Сохранить</string>
+    <string name="save_file">Сохранить в файл</string>
+    <string name="list_button">СПИСОК ЗАМЕТОК</string>
+    <string name="delete_button">Удалить</string>
+    <string name="delete_button2">Удалить из корзины</string>
+    <string name="delete_button3"> </string>
+    <string name="send_button">Отправить</string>
+    <string name="recover_button">Восстановить</string>
+    <string name="search_hint">Поиск по названию</string>
+    <string name="super_folder">Мои заметки</string>
+    <string name="main_folder">Общая папка</string>
+    <string name="favourites_folder">Избранное</string>
+    <string name="all_notes">Все заметки</string>
+    <string name="new_folder">Новая папка</string>
+    <string name="basket">Корзина</string>
+    <string name="settings">Настройки</string>
+    <string name="edit_folder">Редактирование папки:</string>
+    <string name="sort_a_ya">По алфавиту (А-Я)</string>
+    <string name="sort_ya_a">По алфавиту (Я-А)</string>
+    <string name="sort_new_old">Сначала новые</string>
+    <string name="sort_old_new">Сначала старые</string>
+    <string name="note1">Заметка</string>
+    <string name="list1">Список</string>
+    <string name="create">Создать</string>
+    <string name="alert_delete_1">Вы действительно хотите удалить эту заметку</string>
+    <string name="alert_delete_2"> в Корзину?</string>
+    <string name="alert_delete_3"> окончательно?\n\nВНИМАНИЕ! Действие нельзя будет отменить!</string>
+    <string name="alert_delete_4">ВНИМАНИЕ! Действие нельзя будет отменить!</string>
+    <string name="alert_delete_5_1">"Вы действительно хотите очистить папку "</string>
+    <string name="alert_delete_5_2">?</string>
+    <string name="alert_delete_5_3">\n\nЗаметки из этой папки будут перемещены в Корзину</string>
+    <string name="alert_delete_6_1">"Вы хотите окончательно удалить папку "</string>
+    <string name="alert_delete_6_2">" со всеми заметками?\n\nВНИМАНИЕ! Действие нельзя будет отменить!"</string>
+    <string name="alert_del_name">Удаление заметки\n</string>
+    <string name="alert_del_name2">Очистка Корзины\n</string>
+    <string name="alert_del_name3">Удаление в Корзину\n</string>
+    <string name="alert_del_basket1">"Вы действительно хотите очистить Корзину?\n\nЭлементов для удаления: "</string>
+    <string name="alert_del_basket2">ВНИМАНИЕ! Корзина пуста!</string>
+    <string name="alert_del_all_n1">Вы действительно хотите удалить все заметки в Корзину?\n\nЭлементов для удаления: </string>
+    <string name="alert_del_all_n2">ВНИМАНИЕ! Заметки для удаления отсутствуют!</string>
+    <string name="alert_del_all_n3">Вы действительно хотите удалить заметки из "Общей папки" в Корзину?\n\nЭлементов для удаления: </string>
+    <string name="add_line">Добавить строку</string>
+    <string name="create_folder">Создать папку</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="about">О приложении</string>
+    <string name="buy_full_version">Купить полную версию</string>
+
+    <string name="hint_name_list">Введите название списка</string>
+    <string name="points" tools:ignore="TypographyEllipsis">...</string>
+
+
+    <!--Всплывающее окно-->
+    <string name="pop_delete">Вы действительно хотите удалить запись?</string>
+    <string name="pop_exit_main">Вы хотите выйти из приложения?</string>
+    <string name="pop_exit_note">Вы точно хотите выйти без сохранения?</string>
+    <string name="button_positive">ДА</string>
+    <string name="button_negative">ОТМЕНА</string>
+    <string name="button_ok">ОК</string>
+    <string name="edit_user_folder1">Изменить название папки</string>
+    <string name="edit_user_folder2">Очистить папку</string>
+    <string name="edit_user_folder3">Удалить папку</string>
+    <string name="edit_user_folder4">Очистка папки</string>
+    <string name="edit_user_folder5">Удаление папки</string>
+    <string name="edit_user_folder6">Изменение папки</string>
+    <string name="edit_user_folder7">Изменить папку</string>
+
+    <!--Настройки-->
+    <string name="settings_note">Настройки текста заметки</string>
+    <string name="settings_note_size">Размер текста заметки</string>
+    <string name="settings_links">Активные ссылки в заметке</string>
+    <string name="settings_links_on">Активные ссылки включены</string>
+    <string name="settings_links_off">Ссылки в тексте не активны</string>
+    <string name="settings_themes">Настройка темы</string>
+    <string name="settings_themes_color">Цветовая схема</string>
+    <string name="settings_dark">Темная тема ночью</string>
+    <string name="settings_dark_on">Всегда темная тема ночью</string>
+    <string name="settings_language">Настройка языка</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_developer">О разработчике</string>
+
+    <string name="LangTitle">Язык</string>
+    <string name="LangDialogTitle">Выберите язык:</string>
+    <string name="LangSummary">Язык приложения.\nНеобходимо перезапустить приложение для принятия изменений.</string>
+
+    <!--Цвета (для классов)-->
+    <string name="c_blue">Синяя</string>
+    <string name="c_purple">Фиолетовая</string>
+    <string name="c_red">Красная</string>
+    <string name="c_orange">Оранжевая</string>
+    <string name="c_green">Зеленая</string>
+    <string name="c_grey">Серая</string>
+    <string name="c_dark">Темная</string>
+
+    <!--Цвета2 (значения preference screen)-->
+    <string name="c2_blue">Синяя</string>
+    <string name="c2_purple">Фиолетовая</string>
+    <string name="c2_red">Красная</string>
+    <string name="c2_orange">Оранжевая</string>
+    <string name="c2_green">Зеленая</string>
+    <string name="c2_grey">Серая</string>
+    <string name="c2_dark">Темная</string>
+
+        <!--1 лист в Drawer Layout-->
+    <string-array name="folders">
+        <item>@string/all_notes</item>
+        <item>@string/favourites_folder</item>
+        <item>@string/main_folder</item>
+
+    </string-array>
+
+    <!--3 лист в Drawer Layout-->
+    <string-array name="folders3">
+        <item>@string/basket</item>
+        <item>@string/new_folder</item>
+        <item>@string/settings</item>
+        <item>@string/about</item>
+    </string-array>
+
+
+    <!-- Array для настроек -->
+    <!-- Размер текста -->
+    <string-array name="s_text_size_array">
+        <item>Большой</item>
+        <item>Средний</item>
+        <item>Маленький</item>
+    </string-array>
+
+    <string-array name="values_text_size_array">
+        <item>Big</item>
+        <item>Middle</item>
+        <item>Small</item>
+    </string-array>
+
+    <!-- Array для экрана О приложении' -->
+    <string-array name="array_about">
+        <item>@string/privacy_policy</item>
+        <item>@string/buy_full_version</item>
+    </string-array>
+
+    <string name="size_t_big">Большой</string>
+    <string name="size_t_medium">Средний</string>
+    <string name="size_t_small">Маленький</string>
+
+    <!-- Темы -->
+    <string-array name="s_themes_array">
+        <item>Синяя</item>
+        <item>Фиолетовая</item>
+        <item>Красная</item>
+        <item>Оранжевая</item>
+        <item>Зеленая</item>
+        <item>Серая</item>
+        <item>Темная</item>
+    </string-array>
+
+    <string-array name="test_themes_array">
+        <item name="1">Синяя</item>
+        <item name="2">Фиолетовая</item>
+        <item name="3">Красная</item>
+        <item name="4">Оранжевая</item>
+        <item name="5">Зеленая</item>
+        <item name="6">Серая</item>
+        <item name="7">Темная</item>
+
+    </string-array>
+
+    <string-array name="values_themes_array">
+        <item>Синяя</item>
+        <item>Фиолетовая</item>
+        <item>Красная</item>
+        <item>Оранжевая</item>
+        <item>Зеленая</item>
+        <item>Серая</item>
+        <item>Темная</item>
+    </string-array>
+
+
+    <string-array name="fab_array">
+        <item>Заметка</item>
+        <item>Список</item>
+    </string-array>
+
+    <!--Toast's - всплывающие уведомления-->
+    <string name="t_save_note_1">Пожалуйста, напишите заметку</string>
+    <string name="t_save_note_2">Ваш список не сохранён!</string>
+    <string name="t_save_note_3">Список пуст!</string>
+    <string name="t_save_note_4">Сохранено</string>
+    <string name="t_save_note_5">Сохранено в файл TXT</string>
+    <string name="t_save_folder">Папка сохранена</string>
+    <string name="t_save_folder2">Такая папка уже существует</string>
+    <string name="t_save_folder3">Заполните название папки</string>
+    <string name="t_save_folder4">Вы можете создать только 4 пользовательских папки</string>
+    <string name="t_basket1">Все заметки перемещены в Корзину</string>
+    <string name="t_basket2">Все заметки из Корзины удалены</string>
+    <string name="t_basket3">Теперь заметка находится в Корзине</string>
+    <string name="t_basket4">Удалено</string>
+    <string name="t_basket5">Теперь список находится в корзине</string>
+    <string name="t_basket6">Заметки, находящиеся в Корзине, редактировать запрещено!</string>
+    <string name="t_basket7">Заметка восстановлена</string>
+
+    <string-array name="double_folders_protection">
+        <item>Все заметки</item>
+        <item>все заметки</item>
+        <item>ВСЕ ЗАМЕТКИ</item>
+        <item>Все Заметки</item>
+        <item>все Заметки</item>
+        <item>Избранное</item>
+        <item>избранное</item>
+        <item>ИЗБРАННОЕ</item>
+        <item>Общая папка</item>
+        <item>общая папка</item>
+        <item>общая Папка</item>
+        <item>ОБЩАЯ ПАПКА</item>
+        <item>Корзина</item>
+        <item>корзина</item>
+        <item>КОРЗИНА</item>
+        <item>Новая папка</item>
+        <item>новая папка</item>
+        <item>новая Папка</item>
+        <item>Новая Папка</item>
+        <item>НОВАЯ ПАПКА</item>
+        <item>Настройки</item>
+        <item>настройки</item>
+        <item>НАСТРОЙКИ</item>
+        <item>О приложении</item>
+        <item>О Приложении</item>
+        <item>о Приложении</item>
+        <item>о приложении</item>
+        <item>О ПРИЛОЖЕНИИ</item>
+
+    </string-array>
+
+</resources>
